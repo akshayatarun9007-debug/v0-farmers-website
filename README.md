@@ -144,11 +144,17 @@ npm install
 npm run dev
 ```
 Frontend Web Application: http://localhost:3000
+
 Local Network Access (Mobile/Tablet): http://10.1.20.49:3000
+
 ⚙️ Backend & API Services
+
 Backend API Server: http://localhost:8000
+
 Interactive Swagger Documentation: http://localhost:8000/docs
+
 Alternative ReDoc Documentation: http://localhost:8000/redoc
+
 
 ---
 
