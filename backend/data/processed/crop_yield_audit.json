@@ -1,0 +1,29 @@
+{
+  "dataset_name": "Government of India Ministry of Agriculture Crop Production Statistics",
+  "rows_before": 246091,
+  "rows_after": 241324,
+  "duplicates_removed": 0,
+  "missing_values_dropped": {
+    "state": 0,
+    "district": 0,
+    "crop_year": 0,
+    "season": 0,
+    "crop": 0,
+    "area_ha": 0,
+    "production_tonnes": 3730
+  },
+  "outlier_anomalies_removed": 1037,
+  "year_min": 1997,
+  "year_max": 2015,
+  "features": [
+    "state",
+    "district",
+    "crop_year",
+    "season",
+    "crop",
+    "area_ha"
+  ],
+  "target": "yield_tonnes_per_ha",
+  "mean_yield": 4.426,
+  "median_yield": 1.0
+}

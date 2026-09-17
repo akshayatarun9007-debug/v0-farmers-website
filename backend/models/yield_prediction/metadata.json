@@ -1,0 +1,47 @@
+{
+  "model_name": "Crop Yield Predictor",
+  "algorithm": "RandomForestRegressor",
+  "version": "1.0.0",
+  "trained_on": "2026-09-17 10:39:25",
+  "dataset": "Ministry of Agriculture & Farmers Welfare, GoI (241,324 cleaned records)",
+  "features": [
+    "state",
+    "season",
+    "crop",
+    "area_ha",
+    "crop_year"
+  ],
+  "target": "yield_tonnes_per_ha",
+  "unit": "tonnes/hectare",
+  "metrics": {
+    "mae": 1.5776,
+    "rmse": 3.825,
+    "r2_score": 0.9076,
+    "residuals_std": 3.8087
+  },
+  "model_comparison": {
+    "Ridge": {
+      "mae": 2.4292,
+      "rmse": 6.1865,
+      "r2_score": 0.7582,
+      "residuals_std": 6.1862
+    },
+    "RandomForestRegressor": {
+      "mae": 1.5776,
+      "rmse": 3.825,
+      "r2_score": 0.9076,
+      "residuals_std": 3.8087
+    },
+    "GradientBoostingRegressor": {
+      "mae": 1.6219,
+      "rmse": 3.8548,
+      "r2_score": 0.9061,
+      "residuals_std": 3.8436
+    }
+  },
+  "time_aware_split": {
+    "train_years": "1997 - 2013",
+    "test_years": "2014 - 2015",
+    "leakage_prevention": "Strict temporal separation. No future season data exposed to training pipeline."
+  }
+}

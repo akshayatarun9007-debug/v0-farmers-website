@@ -1,0 +1,50 @@
+{
+  "Tomato___healthy": {
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "explanation": "Leaves exhibit normal green coloration with active chlorophyll and no signs of bacterial or fungal lesions.",
+    "recommended_action": "Maintain routine balanced irrigation, balanced N-P-K fertigation, and regular scouting."
+  },
+  "Tomato___Early_blight": {
+    "disease_name": "Early Blight (Alternaria solani)",
+    "is_healthy": false,
+    "explanation": "Fungal pathogen characterized by concentric target-like brown spots surrounded by yellow chlorotic halos on older lower leaves.",
+    "recommended_action": "Remove and destroy affected lower foliage. Avoid overhead sprinkler irrigation. Apply ICAR-approved bio-fungicides (Trichoderma harzianum) or Mancozeb as per agricultural officer guidelines."
+  },
+  "Tomato___Late_blight": {
+    "disease_name": "Late Blight (Phytophthora infestans)",
+    "is_healthy": false,
+    "explanation": "Severe fungal-like oomycete infection thriving under high humidity and cool temperatures. Water-soaked dark lesions spreading rapidly across leaves and stems.",
+    "recommended_action": "Urgent intervention required. Destroy infected plant debris immediately. Improve air circulation. Spray copper oxychloride (0.25%) or metalaxyl upon professional confirmation."
+  },
+  "Potato___healthy": {
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "explanation": "Normal vegetative leaf canopy showing uniform green pigmentation and robust leaf architecture.",
+    "recommended_action": "Continue earthing-up and preventive scouting. Maintain optimal soil moisture for tuber bulking."
+  },
+  "Potato___Early_blight": {
+    "disease_name": "Early Blight (Alternaria solani)",
+    "is_healthy": false,
+    "explanation": "Brown angular spots with concentric rings appearing on older leaves, often exacerbated by nitrogen deficiency and drought stress.",
+    "recommended_action": "Apply balanced potassium and nitrogen fertilizers. Treat with approved protectant fungicides at first sign of circular lesions."
+  },
+  "Potato___Late_blight": {
+    "disease_name": "Late Blight (Phytophthora infestans)",
+    "is_healthy": false,
+    "explanation": "Devastating foliar disease causing pale green to brown water-soaked lesions with white mildew growth on leaf undersides in humid conditions.",
+    "recommended_action": "Halt overhead irrigation immediately. Spray systemic fungicide (e.g. cymoxanil or metalaxyl-mancozeb). Monitor nearby potato/tomato fields."
+  },
+  "Corn_(maize)___healthy": {
+    "disease_name": "Healthy Maize Leaf",
+    "is_healthy": true,
+    "explanation": "Vibrant green parallel-veined leaves showing healthy photosynthetic activity with no rust pustules.",
+    "recommended_action": "Ensure adequate nitrogen side-dressing during knee-high to tasseling stages."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "disease_name": "Common Rust (Puccinia sorghi)",
+    "is_healthy": false,
+    "explanation": "Air-borne fungal disease characterized by cinnamon-brown to golden powdery pustules scattered on both leaf surfaces.",
+    "recommended_action": "Plant rust-resistant hybrid cultivars. If pustule coverage exceeds 10% on ear leaf before silking, apply recommended triazole or strobilurin fungicide."
+  }
+}

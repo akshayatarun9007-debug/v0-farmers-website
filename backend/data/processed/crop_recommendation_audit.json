@@ -1,0 +1,52 @@
+{
+  "dataset_name": "ICAR Crop Recommendation Dataset",
+  "rows_before": 2200,
+  "rows_after": 2200,
+  "duplicates_removed": 0,
+  "missing_values": {
+    "n": 0,
+    "p": 0,
+    "k": 0,
+    "temperature": 0,
+    "humidity": 0,
+    "ph": 0,
+    "rainfall": 0,
+    "label": 0
+  },
+  "invalid_boundary_rows_removed": 0,
+  "features": [
+    "n",
+    "p",
+    "k",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "target": "label",
+  "num_classes": 22,
+  "class_distribution": {
+    "rice": 100,
+    "maize": 100,
+    "chickpea": 100,
+    "kidneybeans": 100,
+    "pigeonpeas": 100,
+    "mothbeans": 100,
+    "mungbean": 100,
+    "blackgram": 100,
+    "lentil": 100,
+    "pomegranate": 100,
+    "banana": 100,
+    "mango": 100,
+    "grapes": 100,
+    "watermelon": 100,
+    "muskmelon": 100,
+    "apple": 100,
+    "orange": 100,
+    "papaya": 100,
+    "coconut": 100,
+    "cotton": 100,
+    "jute": 100,
+    "coffee": 100
+  }
+}
